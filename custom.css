@@ -16,7 +16,6 @@ p {
 .stop {
 	width: 100vw;
 	height: 100vh;
-
 	animation: strop 0.1s linear infinite alternate-reverse;
 	place-items: center;
 	display: none;
