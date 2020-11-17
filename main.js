@@ -20,14 +20,13 @@ function counterPlus() {
 		document.querySelector(".parent").style.display = "none";
 		document.querySelector(".stop").style.display = "grid";
 		stopIt.play();
-		setTimeout(toggle, 1999);
+		setTimeout(toggleStopIt, 1999);
 	} else {
 		allRandomColor();
 	}
-	console.log(eventCounter);
 }
 
-function toggle() {
+function toggleStopIt() {
 	document.querySelector(".parent").style.display = "block";
 	document.querySelector(".stop").style.display = "none";
 }
